@@ -1,12 +1,9 @@
 import React from 'react'
 import Link from 'next/link';
-import Image from 'next/image';
 
 import { urlFor } from '../lib/client';
 
 const HeroBanner = ({ heroBanner }) => {
-
-  console.log(heroBanner);
 
   return (
     <div className="hero-banner-container">
@@ -14,7 +11,7 @@ const HeroBanner = ({ heroBanner }) => {
         <p className='beats-solo'>{heroBanner.smallText}</p>
         <h3>{heroBanner.midText}</h3>
         <h1>{heroBanner.largeText1}</h1>
-        <Image src={urlFor(heroBanner.image)} alt="headphones" className="hero-banner-image" />
+        <img src={urlFor(heroBanner.image)} alt="headphones" className="hero-banner-image" />
         <div>
           <Link href={`/product/${heroBanner.product}`}>
             <button className="button">{heroBanner.buttonText}</button>
