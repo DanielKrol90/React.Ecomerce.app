@@ -13,13 +13,11 @@ const HeroBanner = ({ heroBanner }) => {
         <p className="beats-solo">{smallText}</p>
         <h3>{midText}</h3>
         <h1>{largeText1}</h1>
-        <picture>
           <img
             src={urlFor(image)}
             alt="headphones"
             className="hero-banner-image"
           />
-        </picture>
 
         <div>
           <Link href={`/product/${product}`}>
