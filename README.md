@@ -1,5 +1,5 @@
-Project Model created by youtube channel: https://www.youtube.com/c/JavaScriptMastery
-Project created by Me is based on Project from UT Channel link above.
+Project Model created by youtube channel: https://www.youtube.com/c/JavaScriptMastery <br>
+Project created by Me is based on Project from UT Channel link above. <br>
 Project created for learning purpose's.
 
 Modern Full Stack ECommerce Application with Stripe & Sanity eCommerce with Next.js.
